@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Bloquear dispositivo</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <div *ngIf="selectedItem" padding>
+    <p>¿Quieres bloquear el dispositivo <b>{{selectedItem.nombre}}</b> ?</p>
+    <button ion-button>Sip</button>
+	<button ion-button>Nop</button>
+
+	<div>  <ion-icon name="clock"></ion-icon>Se conectó por última vez el 10 de marzo a las 23:59</div>
+
+    
+  </div>
+</ion-content>

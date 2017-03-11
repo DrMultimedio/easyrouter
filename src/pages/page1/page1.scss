@@ -1,0 +1,50 @@
+page-page1 {
+	ion-content {
+		margin: 0;
+		padding: 0;
+	}
+	#dev_wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+		justify-content: center;
+		padding-top: 5px;
+	}
+	.item{
+		height: 90px;
+		width: 90px;
+		background-color: white;
+		margin: 2px;
+   	 	border-radius: 25px;
+		box-shadow: 10px 10px 5px #888888;
+	}
+	#router_wrapper{
+		height: 60%;
+		background-color: #A7D7DB;
+		margin: 0px;
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+		justify-content: center;
+   	 	border-radius: 14px;
+
+	}
+	.device_img{
+		height: 40px;
+		width: 40px;
+	}
+	.mac{
+		font-size: 9px;
+		color: grey;
+	}
+	.device_label{
+		padding: 0px;
+		margin: 0px;
+	}
+	#router_img{
+		height: 200px;
+		width:200px;
+	}
+
+
+}

@@ -1,0 +1,19 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+  <div id = 'router_wrapper' (click)="toConfig()" > 
+    <div id='router_img'><img src="../assets/img/router-2.png" alt=""></div>
+
+  </div>
+  <div id = 'dev_wrapper'> 
+
+
+    <div ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" class = 'item'><img class = 'device_img' src="{{item.imagenes}}" alt=""><p class='device_label'>{{item.nombre}}</p><p class='mac'>{{item.mac}}</p>
+      
+    </div>
+
+  </div>
+
+
+</ion-content>
